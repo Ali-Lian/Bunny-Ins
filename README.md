@@ -60,7 +60,7 @@
 <p align="center" style="font-size: 13px; margin:0px 80px 10px 80px" >
   <b>表 1</b>： 保障項目給付條件比較表
 </p>
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center;" align="center">
   <img src="condition_table.png" alt="給付條件型別範例表" width="750" style="margin: 0;">
 </div>
 
@@ -68,7 +68,7 @@
 
 * **給付條件**：給付條件屬於多維度資訊，且部分維度為數值，雷達圖能透過角度清楚區分各維度、並以長度呈現數值大小，適合呈現多維度資料，故我們將雷達圖結合布林型資料進行設計。考量給付條件多屬於對保障項目給付的限制規範，亦即在其他條件相同的情況下，包含給付條件的情境通常劣於不包含給付條件者；此外，在數值型給付條件中，如給付日數或次數，其數值愈大亦代表條件愈為寬鬆，保障效果愈佳。基於上述特性，在設計方面，我們希望整體呈現能讓條件愈佳者愈顯眼。因此當保障項目未包含特定給付條件時，其值配置於雷達圖的最外側（圖3 A3）；若包含給付條件但不具數值資訊（圖3 A2），則配置於較內側的節點；而對於具數值型資訊的給付條件，則由小至大線性對應於 A1 至 A2 間，數值愈大者愈接近外圍。透過此配置方式，雷達圖的面積得以在視覺上反映給付條件之相對寬鬆程度，使保障效果較佳的情境呈現出較大的面積，作為使用者進行初步比較時的整體視覺線索。
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center;" align="center">
   <img src="radar_describ.png" alt="雷達圖設計說明" width="850" style="margin: 0;">
 </div>
 <p align="left" style="font-size: 13px; margin:10px 80px 0px 80px" >
@@ -80,7 +80,7 @@
 將各資訊進行視覺化後，我們以表1之兩保單為範例呈現完整健康保險概覽設計（圖4）。
 
 <br>
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center;" align="center">
   <img src="cubes_compare.png" alt="保單方塊效果對照圖" width="650" style="margin: 0;">
 </div>
 <p align="center" style="font-size: 13px; margin:10px 80px 0px 80px" >
