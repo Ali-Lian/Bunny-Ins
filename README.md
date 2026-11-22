@@ -1,6 +1,7 @@
-<div style="display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #d8dee4; padding-bottom: 8px; margin-bottom: 16px; font-size: 32px">
+<div style="display: flex; align-items: center; gap: 12px; border-bottom: 1px solid #d8dee4; padding-bottom: 8px; margin-bottom: 16px;">
   <img src="bunnyLogo2.png" alt="BunnyLogo" width="50" style="margin: 0;">
-  <span style="font-size: 32px; font-weight: 600; line-height: 1.25;">  Bunny選保險 — 健康保險決策輔助系統</span>
+  <h1>Bunny選保險 — 健康保險決策輔助系統</h1>
+  <!-- <span style="font-size: 32px; font-weight: 600; line-height: 1.25;">  Bunny選保險 — 健康保險決策輔助系統</span> -->
 </div>
 
 <span style="font-size: 13px; color: #57606a;">💡 本系統為碩士論文之開發成果</span>
