@@ -28,7 +28,7 @@
 
 除上述核心設計需求，在保險決策中，使用者的決策可能隨對資料的探索改變，透過探索跟比較可能增進其保險知識，進而重新調整對保障目標的需求。因此，這個決策流程不是單向線性的，系統設計上要考量使用者可能跳回決策流程的各階段，設計上要有支援各階段需求切換的彈性。此外，消費者在保險決策過程傾向採用縮減選擇集的策略(Mechanic, 1989<sup><a href="#ref6">6</a></sup>)，我們認為應將最具決定性的資訊優先呈現，細節資訊則配合篩選與比較的流程分層次呈現。故我們將各保險因子劃分視覺化優先級，並以分層呈現作為主要設計原則（圖1）。
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; justify-content: center;" align="center">
   <img src="priority.png" alt="優先等級表" width="500" style="margin: 0;">
 </div>
 <p align="center" style="font-size: 13px;">
@@ -103,9 +103,8 @@
 </p>
 
 ## 3. Demo Video
-🔻**點擊觀看 Youtube Demo 影片**<br>
-🔗
-![alt text](image.png)
+🔗https://youtu.be/aojD7bXMxZk
+
 ## 4. Live Demo
 🔗https://bunny-ins-select-jade.vercel.app/
 
